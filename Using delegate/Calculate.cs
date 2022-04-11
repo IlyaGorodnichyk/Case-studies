@@ -12,10 +12,14 @@ namespace Using_delegate
     {
         //Declarete delegate
         Notification? notification;
-        // Add to delegete metod
-        public void RegistrMetod(Notification del)
+        
+        public void RegistrMetod(Notification del) // Add to delegete metod
         {
             notification += del;
+        }
+        public void UnregisterMetod(Notification del) // Delete to delegate metod
+        { 
+            notification -= del;
         }
         public int Add(int x, int y)
         {

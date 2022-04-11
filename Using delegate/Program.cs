@@ -5,6 +5,7 @@ calculate.RegistrMetod(PrintNotificatoin); //Add metod to delegate
 calculate.Add(-1, 5);
 calculate.RegistrMetod(PrintColorText); //Add metod to delegate
 calculate.Multiply(3, 5);
+calculate.UnregisterMetod(PrintColorText);
 calculate.Dividsion(46, 87);
 
 
